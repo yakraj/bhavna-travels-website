@@ -18,7 +18,7 @@ const Navbar: React.FC = () => {
       <div className="container navbar-content">
         <Link to="/" className="logo" onClick={closeMenu}>
           <Bus className="logo-icon" />
-          <span>Bhavna Travels</span>
+          <span>Bhavna Tours & Travels</span>
         </Link>
 
         <div className="mobile-menu-btn" onClick={toggleMenu}>

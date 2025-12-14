@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useSearchParams } from "react-router-dom";
-import { Bus, Clock, IndianRupee, X } from "lucide-react";
+import { Clock, IndianRupee, X } from "lucide-react";
 
 const Booking: React.FC = () => {
   const [searchParams] = useSearchParams();
